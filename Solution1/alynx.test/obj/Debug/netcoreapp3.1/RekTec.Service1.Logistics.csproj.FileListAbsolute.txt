@@ -1,0 +1,16 @@
+C:\Users\EDY\Documents\GitHub\crm3\src\RekTec.Service1.Logistics\bin\Debug\netcoreapp3.1\RekTec.Service1.Logistics.deps.json
+C:\Users\EDY\Documents\GitHub\crm3\src\RekTec.Service1.Logistics\bin\Debug\netcoreapp3.1\RekTec.Service1.Logistics.dll
+C:\Users\EDY\Documents\GitHub\crm3\src\RekTec.Service1.Logistics\bin\Debug\netcoreapp3.1\RekTec.Service1.Logistics.pdb
+C:\Users\EDY\Documents\GitHub\crm3\src\RekTec.Service1.Logistics\obj\Debug\netcoreapp3.1\RekTec.Service1.Logistics.csproj.AssemblyReference.cache
+C:\Users\EDY\Documents\GitHub\crm3\src\RekTec.Service1.Logistics\obj\Debug\netcoreapp3.1\RekTec.Service1.Logistics.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\EDY\Documents\GitHub\crm3\src\RekTec.Service1.Logistics\obj\Debug\netcoreapp3.1\RekTec.Service1.Logistics.csproj.CoreCompileInputs.cache
+C:\Users\EDY\Documents\GitHub\crm3\src\RekTec.Service1.Logistics\obj\Debug\netcoreapp3.1\RekTec.Service1.Logistics.dll
+C:\Users\EDY\Documents\GitHub\crm3\src\RekTec.Service1.Logistics\obj\Debug\netcoreapp3.1\RekTec.Service1.Logistics.pdb
+C:\Users\EDY\Documents\GitHub\crm3\main\crm3\src\RekTec.Service1.Logistics\bin\Debug\netcoreapp3.1\RekTec.Service1.Logistics.deps.json
+C:\Users\EDY\Documents\GitHub\crm3\main\crm3\src\RekTec.Service1.Logistics\bin\Debug\netcoreapp3.1\RekTec.Service1.Logistics.dll
+C:\Users\EDY\Documents\GitHub\crm3\main\crm3\src\RekTec.Service1.Logistics\bin\Debug\netcoreapp3.1\RekTec.Service1.Logistics.pdb
+C:\Users\EDY\Documents\GitHub\crm3\main\crm3\src\RekTec.Service1.Logistics\obj\Debug\netcoreapp3.1\RekTec.Service1.Logistics.csproj.AssemblyReference.cache
+C:\Users\EDY\Documents\GitHub\crm3\main\crm3\src\RekTec.Service1.Logistics\obj\Debug\netcoreapp3.1\RekTec.Service1.Logistics.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\EDY\Documents\GitHub\crm3\main\crm3\src\RekTec.Service1.Logistics\obj\Debug\netcoreapp3.1\RekTec.Service1.Logistics.csproj.CoreCompileInputs.cache
+C:\Users\EDY\Documents\GitHub\crm3\main\crm3\src\RekTec.Service1.Logistics\obj\Debug\netcoreapp3.1\RekTec.Service1.Logistics.dll
+C:\Users\EDY\Documents\GitHub\crm3\main\crm3\src\RekTec.Service1.Logistics\obj\Debug\netcoreapp3.1\RekTec.Service1.Logistics.pdb

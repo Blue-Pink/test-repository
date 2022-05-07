@@ -1,0 +1,16 @@
+C:\Users\EDY\Documents\GitHub\crm3\main\crm3\src\alynx.test\bin\Debug\netcoreapp3.1\alynx.test.deps.json
+C:\Users\EDY\Documents\GitHub\crm3\main\crm3\src\alynx.test\bin\Debug\netcoreapp3.1\alynx.test.dll
+C:\Users\EDY\Documents\GitHub\crm3\main\crm3\src\alynx.test\bin\Debug\netcoreapp3.1\alynx.test.pdb
+C:\Users\EDY\Documents\GitHub\crm3\main\crm3\src\alynx.test\obj\Debug\netcoreapp3.1\alynx.test.csproj.AssemblyReference.cache
+C:\Users\EDY\Documents\GitHub\crm3\main\crm3\src\alynx.test\obj\Debug\netcoreapp3.1\alynx.test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\EDY\Documents\GitHub\crm3\main\crm3\src\alynx.test\obj\Debug\netcoreapp3.1\alynx.test.csproj.CoreCompileInputs.cache
+C:\Users\EDY\Documents\GitHub\crm3\main\crm3\src\alynx.test\obj\Debug\netcoreapp3.1\alynx.test.dll
+C:\Users\EDY\Documents\GitHub\crm3\main\crm3\src\alynx.test\obj\Debug\netcoreapp3.1\alynx.test.pdb
+C:\Users\EDY\source\repos\Solution1\alynx.test\bin\Debug\netcoreapp3.1\alynx.test.deps.json
+C:\Users\EDY\source\repos\Solution1\alynx.test\bin\Debug\netcoreapp3.1\alynx.test.dll
+C:\Users\EDY\source\repos\Solution1\alynx.test\bin\Debug\netcoreapp3.1\alynx.test.pdb
+C:\Users\EDY\source\repos\Solution1\alynx.test\obj\Debug\netcoreapp3.1\alynx.test.csproj.AssemblyReference.cache
+C:\Users\EDY\source\repos\Solution1\alynx.test\obj\Debug\netcoreapp3.1\alynx.test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\EDY\source\repos\Solution1\alynx.test\obj\Debug\netcoreapp3.1\alynx.test.csproj.CoreCompileInputs.cache
+C:\Users\EDY\source\repos\Solution1\alynx.test\obj\Debug\netcoreapp3.1\alynx.test.dll
+C:\Users\EDY\source\repos\Solution1\alynx.test\obj\Debug\netcoreapp3.1\alynx.test.pdb

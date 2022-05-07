@@ -1,0 +1,70 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\EDY\\Documents\\GitHub\\crm3\\main\\crm3\\src\\RekTec.Service1.Logistics\\RekTec.Service1.Logistics.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\EDY\\Documents\\GitHub\\crm3\\main\\crm3\\src\\RekTec.Service1.Logistics\\RekTec.Service1.Logistics.csproj": {
+      "version": "4.18.3-pre",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\EDY\\Documents\\GitHub\\crm3\\main\\crm3\\src\\RekTec.Service1.Logistics\\RekTec.Service1.Logistics.csproj",
+        "projectName": "RekTec.Service1.Logistics",
+        "projectPath": "C:\\Users\\EDY\\Documents\\GitHub\\crm3\\main\\crm3\\src\\RekTec.Service1.Logistics\\RekTec.Service1.Logistics.csproj",
+        "packagesPath": "C:\\Users\\EDY\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\EDY\\Documents\\GitHub\\crm3\\main\\crm3\\src\\RekTec.Service1.Logistics\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\EDY\\Documents\\GitHub\\crm3\\main\\crm3\\src\\NuGet.Config",
+          "C:\\Users\\EDY\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nrm.recloud.com.cn:8081/repository/nuget-group/": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "RekTec.OneSdk.Customization": {
+              "target": "Package",
+              "version": "[4.21.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
