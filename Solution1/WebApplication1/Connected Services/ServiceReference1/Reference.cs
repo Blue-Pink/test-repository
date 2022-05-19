@@ -18,6 +18,9 @@ namespace ServiceReference1
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/HelloWorld", ReplyAction="*")]
         System.Threading.Tasks.Task<ServiceReference1.HelloWorldResponse> HelloWorldAsync(ServiceReference1.HelloWorldRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/APlusB", ReplyAction="*")]
+        System.Threading.Tasks.Task<ServiceReference1.APlusBResponse> APlusBAsync(ServiceReference1.APlusBRequest request);
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
@@ -92,6 +95,90 @@ namespace ServiceReference1
         }
     }
     
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.3")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
+    public partial class APlusBRequest
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Name="APlusB", Namespace="http://tempuri.org/", Order=0)]
+        public ServiceReference1.APlusBRequestBody Body;
+        
+        public APlusBRequest()
+        {
+        }
+        
+        public APlusBRequest(ServiceReference1.APlusBRequestBody Body)
+        {
+            this.Body = Body;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.3")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.Runtime.Serialization.DataContractAttribute(Namespace="http://tempuri.org/")]
+    public partial class APlusBRequestBody
+    {
+        
+        [System.Runtime.Serialization.DataMemberAttribute(Order=0)]
+        public int a;
+        
+        [System.Runtime.Serialization.DataMemberAttribute(Order=1)]
+        public int b;
+        
+        public APlusBRequestBody()
+        {
+        }
+        
+        public APlusBRequestBody(int a, int b)
+        {
+            this.a = a;
+            this.b = b;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.3")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
+    public partial class APlusBResponse
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Name="APlusBResponse", Namespace="http://tempuri.org/", Order=0)]
+        public ServiceReference1.APlusBResponseBody Body;
+        
+        public APlusBResponse()
+        {
+        }
+        
+        public APlusBResponse(ServiceReference1.APlusBResponseBody Body)
+        {
+            this.Body = Body;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.3")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.Runtime.Serialization.DataContractAttribute(Namespace="http://tempuri.org/")]
+    public partial class APlusBResponseBody
+    {
+        
+        [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=0)]
+        public string APlusBResult;
+        
+        public APlusBResponseBody()
+        {
+        }
+        
+        public APlusBResponseBody(string APlusBResult)
+        {
+            this.APlusBResult = APlusBResult;
+        }
+    }
+    
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.3")]
     public interface WebService1SoapChannel : ServiceReference1.WebService1Soap, System.ServiceModel.IClientChannel
     {
@@ -146,6 +233,21 @@ namespace ServiceReference1
             ServiceReference1.HelloWorldRequest inValue = new ServiceReference1.HelloWorldRequest();
             inValue.Body = new ServiceReference1.HelloWorldRequestBody();
             return ((ServiceReference1.WebService1Soap)(this)).HelloWorldAsync(inValue);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        System.Threading.Tasks.Task<ServiceReference1.APlusBResponse> ServiceReference1.WebService1Soap.APlusBAsync(ServiceReference1.APlusBRequest request)
+        {
+            return base.Channel.APlusBAsync(request);
+        }
+        
+        public System.Threading.Tasks.Task<ServiceReference1.APlusBResponse> APlusBAsync(int a, int b)
+        {
+            ServiceReference1.APlusBRequest inValue = new ServiceReference1.APlusBRequest();
+            inValue.Body = new ServiceReference1.APlusBRequestBody();
+            inValue.Body.a = a;
+            inValue.Body.b = b;
+            return ((ServiceReference1.WebService1Soap)(this)).APlusBAsync(inValue);
         }
         
         public virtual System.Threading.Tasks.Task OpenAsync()
